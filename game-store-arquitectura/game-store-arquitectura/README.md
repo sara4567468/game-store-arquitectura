@@ -1,19 +1,25 @@
+# 🎮 GameStore Pro
 
-# Game Store - Arquitectura de la Información
+Proyecto de tienda de videojuegos online.  
 
-## Descripción
-Proyecto de tienda de videojuegos implementado con arquitectura de microservicios.
+## 📂 Estructura del proyecto
+- **frontend/**: Interfaz web (HTML, CSS, JS)  
+- **backend/**: Servicios de juego y pedidos (Node.js, Docker)  
+- **docker-compose.yml**: Orquestación de servicios  
+- **README.md**: Documentación del proyecto  
 
-## Tecnologías
-- Node.js
-- Express
-- Docker
-- Kubernetes (conceptual)
+## 🚀 Funcionalidades
+- Catálogo de juegos con precios  
+- Secciones: Populares, Descuentos, Próximos lanzamientos  
+- Carrito de compras y favoritos  
+- Modal de login y registro  
+- Chat bot 
+- Modo claro/oscuro  
 
-## Arquitectura
-Se utilizan tres microservicios independientes:
-- User Service
-- Product Service
-- Order Service
+## ⚙️ Tecnologías
+- HTML, CSS, JavaScript  
+- Node.js  
+- Docker  
+- Git & GitHub  
 
-Cada servicio implementa patrón MVC y se ejecuta en contenedores Docker.
+
